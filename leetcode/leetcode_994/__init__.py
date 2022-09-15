@@ -1,3 +1,10 @@
+from typing import List
+
+
+class TreeNode:
+    pass
+
+
 class Solution:
     def getBinaryTrees(self, preOrder: List[int], inOrder: List[int]) -> List[TreeNode]:
         def recur(root, left, right):
