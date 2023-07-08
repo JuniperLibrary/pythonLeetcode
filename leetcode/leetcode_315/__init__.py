@@ -11,7 +11,7 @@ class Solution:
             elif sum < target:
                 i += 1
             else:
-                return [i, j]
+                return [i+1, j+1]
         return [-1, -1]
 
 
