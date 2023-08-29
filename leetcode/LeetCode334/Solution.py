@@ -34,7 +34,7 @@ class Solution:
         return False
 
     @staticmethod
-    def increasing_triplet(nums):
+    def increasing_triplet(nums) -> bool:
         # first 和 second 分别表示当前找到的递增子序列中的第一个和第二个元素
         first = second = float('inf')
 
