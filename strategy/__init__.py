@@ -1,5 +1,6 @@
 import yfinance as yf
 
+
 def moving_average_crossover_strategy(ticker, short_window, long_window):
     # 获取黄金ETF数据
     gold_etf_data = yf.download(ticker, start="2020-01-01", end="2023-01-01")
@@ -23,6 +24,7 @@ def moving_average_crossover_strategy(ticker, short_window, long_window):
     gold_etf_data['Cumulative_Return'] = (1 + gold_etf_data['Strategy_Return']).cumprod()
 
     return gold_etf_data
+
 
 if __name__ == "__main__":
     ticker_symbol = 'GLD'  # 黄金ETF的Ticker符号
