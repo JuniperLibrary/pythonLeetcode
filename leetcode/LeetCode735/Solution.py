@@ -33,3 +33,8 @@ class Solution:
             if boom:
                 stack.append(t)
         return stack
+
+
+if __name__ == '__main__':
+    arr = [5, 10, -5]
+    print(Solution().asteroidsCollision(arr))
