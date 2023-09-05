@@ -26,5 +26,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-    s = "3[a]2[bc]"
+    s = "abc3[cd]xyz"
     print(Solution().decodeString(s))
