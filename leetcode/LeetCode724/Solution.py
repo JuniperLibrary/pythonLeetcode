@@ -27,7 +27,9 @@ class Solution:
         for x in range(len(nums)):
             sum_right -= nums[x]
             if sum_left == sum_right:
-                return 1
+                return x
+            sum_left += nums[x]
+        return -1
 
 
 if __name__ == '__main__':
