@@ -29,5 +29,4 @@ class Solution:
     提示:如果小明在t时刻返回，她可以接包括t时刻以及之后到来的订单，但不能接t-1时刻以及之前的订单
     """
 
-    def maxProfit(self, prices):
 
